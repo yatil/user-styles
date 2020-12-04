@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name			Underline The Incomparable Links
+@author			Eric Eggert
+@version		1.0.0
+@namespace		yatil
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("theincomparable.com")
+{
+	p:not(.podcast) a {
+		text-decoration: underline;
+	}
+}
